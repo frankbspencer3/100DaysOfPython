@@ -1,0 +1,34 @@
+###Day 16 Notes File###
+###These notes are not for learning, just for documentating my progress###
+
+Long list of stuff today
+-Learned about OOP
+	- CLasses, Objects, Methods
+	- Classes are objects defined by variables (attributes) and methods (functions)
+	- Modules are files
+	- from turtle (module) import Turtle(class), Screen(class)
+	- other options is to import turtle, use turtle.Turtle(), assign it to something, and then call functions for it
+		- franklin = turtle.Turtle(), franklin.color("green"), franklin.shape("turtle")
+
+-Learned about pipy for packages
+	- Had to " python -m venv venv" to create virtual environment for 100DoP project since I split off from AY project files due to course progression
+	- now have venv folder in 100DoP root
+	- ps - .\venv\Scripts\Activate.ps1, win bash - source venv/Scripts/activate, linux bash venv/bin/activate
+	- also found out deleting .idea/folder was a bad move since thats one of the reasons i had to set up an interpreter separately. just had to reopen the project in pycharm 
+	- aslo also figured out that pycharm interpreter settings are no longer directly in the project like shown in 100DoP course
+		- settings are under file > settings > python > interpreter > drop down
+		- didnt notice this before so not sure if .venv was needed but it likely was 
+	- installed prettytable 3.13 to match my python 3.13
+	- also note, did not use pip. used GUI option
+	- documentation for how to use packages is MASSIVE
+
+-Learned a little about WSL and Installed Ubuntu 22.04
+ 	- I had WSL feature installed but never installed distro
+	- Installed Ubuntu 22.04 due to weight and necessity of tools
+	- Did all this because PS is too cumbersome to make new files for documentation
+	- Looked at both VIM and Nano, not interested in VIM short cuts so Im using Nano
+	- Good news I can also go back and add notes from previous two weeks as well for learning
+	- Should help cement knowledge by writing and going over what ive learned
+	- also need to remember to use "WSL" command to activate WSL before using Nano
+
+
