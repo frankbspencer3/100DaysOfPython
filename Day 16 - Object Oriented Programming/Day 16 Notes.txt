@@ -1,4 +1,4 @@
-###Day 16 Notes File###
+###Day 16 Notes###
 ###These notes are not for learning, just for documentating my progress###
 
 Long list of stuff today
@@ -9,6 +9,9 @@ Long list of stuff today
 	- from turtle (module) import Turtle(class), Screen(class)
 	- other options is to import turtle, use turtle.Turtle(), assign it to something, and then call functions for it
 		- franklin = turtle.Turtle(), franklin.color("green"), franklin.shape("turtle")
+	- pay close attention to what parameters a method asking for. sometimes it may be the item or a sub-item
+	- generally good practice to assign methods/returns to variables. this lets you use and compare them 
+	
 
 -Learned about pipy for packages
 	- Had to " python -m venv venv" to create virtual environment for 100DoP project since I split off from AY project files due to course progression
@@ -20,7 +23,8 @@ Long list of stuff today
 		- didnt notice this before so not sure if .venv was needed but it likely was 
 	- installed prettytable 3.13 to match my python 3.13
 	- also note, did not use pip. used GUI option
-	- documentation for how to use packages is MASSIVE
+	- documentation for how to use packages is MASSIVE in writing code with packages
+	- i thought i was going to have 1 venv for my 100 days. now im not so sure with what that means for interpreter and package management
 
 -Learned a little about WSL and Installed Ubuntu 22.04
  	- I had WSL feature installed but never installed distro
@@ -31,4 +35,9 @@ Long list of stuff today
 	- Should help cement knowledge by writing and going over what ive learned
 	- also need to remember to use "WSL" command to activate WSL before using Nano
 
+-Also learned about .gitignore and why i shouldnt delete that (i should probably stop deleting stuff in general xD)
+	- Accidently uploaded .idea/ to Git since I didnt realize it shouldnt be tracked and should be added to .gitignore
+	- created new .gitignore file with "nano .gitignore" in 100DoP directory and added .idea/ and venv/ 
+	- Used "git rm -r --cached .idea" to remove .idea folder from git tracking (--cached removes tracking but doesnt delete locally")
+	- commited and repushed so that .idea is no longer tracked
 
