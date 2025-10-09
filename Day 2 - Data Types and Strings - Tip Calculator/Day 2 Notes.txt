@@ -1,0 +1,39 @@
+###Day 2 Notes###
+###These notes are not for learning, just for documentating my progress###
+
+- Learned about data types
+	-strings
+	-ints
+	-floats
+	-boolean
+- learned about type and type conversion
+	- to change a type you have to cast it to a different type
+		- string = "123"
+		- int(string) = 123 (as int)
+
+- leared about math operators. also math uses PEMDAS. also theres more operators these just the basic ones
+	- subtraction (-)
+	- addition (+)
+	- multiplication (*)
+	- division (/)
+	- power (**)
+
+- round function
+	- round(3.738492) # Becomes 4
+
+	- round(3.14159) # Becomes 3
+
+	- round(3.14159, 2) # Becomes 3.14
+
+- assignment operators - useful for iteration
+	- += plus equals - adds the number and assigns to new variable
+
+	- -= minus equals - subracts "					"
+
+	- *= times equals - multiplies "				"
+
+	- /= divide equals - divides "					"
+
+- f-Stirings allow us to insert expressions or variables into a string
+	- age = 5
+	- print(f" I am {age} years old") 
