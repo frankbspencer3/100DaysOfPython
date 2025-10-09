@@ -1,0 +1,10 @@
+###Day 1 Notes###
+###These notes are not for learning, but for documentation purposes###
+
+- Learned primarily about variables, input, and print statement
+- May have also learned the difference between concatenation and addition
+- Also learned about len function
+
+- Installed pycharm/netbrains. Pycharm seems like overly powerful training wheels
+	- it gives so much information about whats going on with my code that makes me have to not think
+	- may not be good to use long term 
