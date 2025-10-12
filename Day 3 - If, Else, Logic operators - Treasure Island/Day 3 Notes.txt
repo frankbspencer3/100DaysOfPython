@@ -1,0 +1,36 @@
+###Day 3 Notes###
+###These notes are not for learning, but for documenting###
+
+- Learned about flow control with if/else operators
+- Can nest if/else
+- if does not need matching else
+	- Boolean values do need escape
+	- if you write an if that returns true, you need to write an evaluation that can return false
+
+- learned modulo operator
+	- % - returns the remaineder
+	- 5%3 = 2
+	- 6%3 = 0
+
+- can also use elif for multiple if cases
+
+- also did some git learning on this day
+	- created a tracking file at first because git does not track empty folders
+		- you need some sort of file for git to track in order to track folders
+	- also had the issue of day ordering
+		- I wrote "Day 1", "Day 2", and "day 3" as folder names
+		- day 3 being lower cased messed up the folder ordering on github
+	- git revert <commit hash>
+		- creates a new commit that does undoes the old commit; does not delete history
+	- git reset --hard <commit-hash>
+		- removes commit from github history
+		- probably not good for shared projects 
+	- git reset --soft/mixed/hard  HEAD~1
+		- different effects but all undo commits. generally will use soft
+
+	- git reset <filename>
+		- undoes file staging from git add 
+	- git status 
+		- check current staged and unstaged files
+	- git log 
+		- check history of pushes/commits
