@@ -1,0 +1,13 @@
+###Day 17.1 Supplement Notes###
+
+name = the dog name, breed = the dog breed, age = the dog age, new_name = the dogs name after name change. 
+
+self is used to reference the constructed object, this way each object can have its attributes set separately. 
+
+bark() just stores a strong in a variable that is returned. when the method is called, it prints the string
+
+rename takes 1 argument and reapplies the argument to the self.name attribute of whatever object self is, self being the instance what was called, in this case Dog1.
+
+the two objects behave independently because they are constructed separately. Dog1 is its own construction of the Dog class and Dog2 is also its own construction of the Dog class
+
+every dog starts at age = 0, and this is an attribute every dog initializes with. the birthday method simple takes the age of the called dog and increments by 1, and then returns the age

@@ -1,0 +1,20 @@
+###Day 17.2 Supplemental practice notes###
+Wheels is a class attribute, so every instance of the class "Car" will have wheels. when i set Car.wheels = 6, this changed it on both cars because it is specific to entire class. 
+
+this is in contrast to make, model, and miles, which are instance attributes.you can see they are instance attributes because they are initialized in the init function 
+with (make, model) and then miles is added as self.miles because every car will start at 0 miles, but the mileage for each car is specific to the instance, not the entire class.
+the same for make and model where these attributes are specific to the instance created when the class is called. self here takes an argument of an object that needs to be passed, 
+even though it may not seem that way if nothing is passed in the parenthesis
+
+the drive method takes an integer value and adds it to self.miles. self.miles is the how each instance tracks the mileage put on to each vehicle.
+ self here makes sure that the number of miles is applied to the instantiated object, so when i write "Camaro.drive(25)", I am calling for 
+my Camaro object to add 25 miles via the drive method, and self is referring to the Camaro object. 
+
+similarly, the info() method uses self as its passed argument to call upon whatever object it was passed with, and then prints the associated make, model, 
+and miles of whatever object was passed with self. 
+
+in my code, you can see that I drove the camaro 50 miles and then printed the mileage. after, i drove the mustang and camaro separately and
+ then printed both to show that their mileage tracking was separate. 
+
+finally, i used Car.wheels = 6 to change the amount of wheels for the Car class. Because wheels is a class attribute, it changes for every item a part of that class.
+this is in contrast to an instance attribute like make, which only applies to individual instances and can be changed on an instance to instance basis. to prove this, i printed the wheels of both cars
