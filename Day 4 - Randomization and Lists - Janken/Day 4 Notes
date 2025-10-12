@@ -1,0 +1,18 @@
+###Day 4 Notes###
+
+- Learned about randomization and lists
+- import random to import the random module
+	- random module is an included packing in python
+	- allows the use of random.choice, random.randint, etc 
+	- makes it so we dont have to create our own pseudorandom code
+
+- lists are the python version of an array
+	- declare as "list = []" to declare empty list
+	- list index (items with list) start at 0
+		- list indexes= [ 0 , 1 , 2 , 3 , 4 , 5 , et al]
+	- lists can hold any item in each index
+		- list = ["orange" , 1 , 3 , 62 , "potato", [0, "rake", 33.2], 2]
+		- items include strings, ints, floats, lists, dictionaries, and tuples
+	- to call a list at an index 
+		- list[0] - to call item at first index
+		- list[5][1] - this identifies the 5 index, and then the 1 index		
