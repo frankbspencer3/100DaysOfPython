@@ -1,0 +1,7 @@
+so in this code, ive created the class Book and the class EBook which inherits attributes from Book, as denoted by EBook(Book). 
+
+ive defined book with title author and year attributes and returned a summary that can be called for any book info that was entered.
+
+because EBook inherits from Book, i dont have reproduce everything (it looks like I did but it will look better in the future when theres more code that could be duplicated). i wanted the same summary functionality, hoever because this is an ebook, i wanted to include the size of the file as well. here i learned about and used Super(). this function is used to access methods and properties af another (parent) class. an important point to remember however is that super is binary in that you may either inherit all of a method or none of it. that is to say, if a method in the parent class has 3 arguments, you cant only give 2 arguments to the child class. this will return an error. 
+
+after initializing the EBook using the parent classes parameters, ive used Super() again to give a summary of the EBook, and included the file size there as well. this is to demonstrate that the methods can be pulled and will list their data appropriately when called
